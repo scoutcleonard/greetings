@@ -1,16 +1,15 @@
-Package: aloahjb
+Package: greetings
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Say aloha to a friend
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: The package maintainer <brun@nceas.ucsb.edu>
+Description: how to best greet a good friend
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/brunj7/aloahjb
-BugReports: https://github.com/brunj7/aloahjb/issues
+URL: https://github.com/brunj7/greetings
+BugReports: https://github.com/brunj7/greetings/issues
 RoxygenNote: 7.1.1
 Imports: crayon, emo
 Remotes: hadley/emo
