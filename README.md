@@ -4,14 +4,14 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of aloahjb is to ...
+The goal of aloahjb is to say aloha to friend.
 
 ## Installation
 
-You can install the released version of aloahjb from [CRAN](https://CRAN.R-project.org) with:
+You can install this package with:
 
 ``` r
-install.packages("aloahjb")
+remotes::install_github("brunj7/aloahjb")
 ```
 
 ## Example
@@ -20,6 +20,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(aloahjb)
-## basic example code
+say_aloha("Allison")
 ```
 
