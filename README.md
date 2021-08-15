@@ -24,3 +24,9 @@ say_aloha("Allison")
 #> Aloha, Allison 🌴 ☀️ 🌊
 ```
 
+## Aknowledgement
+
+This package is adapted from "How to Create an R Package" developed by Irene Steves and Mitch Maier.
+
+Original material: https://github.com/isteves/r-pkg-intro
+
