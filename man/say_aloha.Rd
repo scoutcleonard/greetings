@@ -4,7 +4,7 @@
 \alias{say_aloha}
 \title{Says Aloah to a friend}
 \usage{
-say_aloha(name, print = TRUE)
+say_aloha(name)
 }
 \arguments{
 \item{name}{a character}
@@ -18,5 +18,5 @@ say_aloha(name, print = TRUE)
 Says Aloah to a friend
 }
 \examples{
-say_aloah("Allison")
+say_aloha("Allison")
 }

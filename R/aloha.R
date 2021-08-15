@@ -7,8 +7,8 @@
 #' @return (character) An aloha message
 #' @export
 #'
-#' @examples say_aloah("Allison")
-say_aloha <- function(name, print = TRUE) {
+#' @examples say_aloha("Allison")
+say_aloha <- function(name) {
 
   message <- paste("Aloha,",
                    name,
@@ -16,9 +16,5 @@ say_aloha <- function(name, print = TRUE) {
                    emo::ji("sunny"),
                    emo::ji("ocean"))
 
-  if (print) {
-    cat(crayon::bgGreen(message))
-  }
-
-  invisible(message)
+  cat(crayon::bgGreen(message))
 }
